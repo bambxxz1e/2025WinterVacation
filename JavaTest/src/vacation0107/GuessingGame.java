@@ -9,15 +9,15 @@ public class GuessingGame {
 		Scanner sc = new Scanner(System.in);
 		int com = (int)((Math.random()* 100) + 1);
 		
-		int my;
+		int me;
 		do {
 			System.out.print("숫자 입력(1 ~ 100) : ");
-			my = sc.nextInt();
-			if(my > com) System.out.println("Down");
-			else if(my < com) System.out.println("Up");
+			me = sc.nextInt();
+			if(me > com) System.out.println("Down");
+			else if(me < com) System.out.println("Up");
 			else System.out.println("정답");
 		}
-		while(my != com);
+		while(me != com);
 	}
 
 }
