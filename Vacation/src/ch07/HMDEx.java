@@ -9,7 +9,7 @@ public class HMDEx {
 		
 		dic.put("유우시", "0405");
 		dic.put("사쿠야", "1118");
-		dic.put("리쿠", "0629");
+		dic.put("리쿠", "0628");
 		
 		Scanner sc = new Scanner(System.in);
 		
