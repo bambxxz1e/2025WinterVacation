@@ -1,4 +1,4 @@
-package vaction0108;
+package vacation0108;
 
 import java.util.ArrayList;
 import java.util.Scanner;
