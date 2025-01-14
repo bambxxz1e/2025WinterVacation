@@ -54,8 +54,8 @@ class BookSystem {
 			if (manager.get(i).getName().equals(name)) {
 				System.out.println("새로운 정보 입력");
 				System.out.print("새 도서명 : "); String n = sc.next();
-				System.out.print("새 도서명 : "); String a = sc.next();
-				System.out.print("새 도서명 : "); String g = sc.next();
+				System.out.print("새 저자명 : "); String a = sc.next();
+				System.out.print("새 장르 : "); String g = sc.next();
 				manager.set(i, new Books(n, a, g));
 				System.out.println("수정 되었습니다.");
 				return;
